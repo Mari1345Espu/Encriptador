@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/style.css">
+    <link rel="icon" href="/Imagenes/Candado.png">
+    
+    <title> Encriptador </title>
+</head>
+<body>
+    <header>
+        <a href="https://www.aluracursos.com/"> <img src="/Imagenes/Logo.png" alt="logo-alura" class="logo"> </a>
+        
+    </header>
+    <main>
+        <section>
+            <textarea class="text-user" cols="30" rows="10" placeholder=" Ingrese el texto aqui: "></textarea>
+            <div class="information">
+                <img class="image-alert" src="Imagenes/Alerta.png" alt="Alert"> 
+                <h6 class="text-information">Solo letras minúsculas y sin acentos</h6>
+            </div>
+            <div class="buttoms">
+                <button class="btn-encrypt" onclick="btnEncriptar()"> Encriptar </button>
+                <button class="btn-decrypt" onclick="btnDesencriptar()"> Desencriptar </button>
+            </div> 
+        </section>
+        <section>
+            <textarea class="text-message" cols="20" rows="10"></textarea>
+            <div class="buttoms">
+                <button class="btn-copy" onclick="btnCopiar()"> Copiar </button>
+                <button class="btn-delete" onclick="btnBorrar()"> Borrar </button>
+            </div>
+        </section>    
+    </main>
+    
+    <footer>      
+        <div  class="wave" style="height: 150px; overflow: hidden;" ><svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%; width: 100%;"><path d="M-0.94,17.42 C163.84,23.41 269.38,146.86 502.44,54.27 L500.00,150.33 L0.00,150.33 Z" style="stroke: none; fill: #08f;"></path></svg></div>
+        <div class="foo">            
+            <div class="contact">
+                <div class="iconos-contacto">
+                    <a href="https://www.linkedin.com/in/maria-fernanda-escobar-pulido/"><img src="Imagenes/linkedin.png" alt="logo-linkenIn" class="logo-link" style="display: inline-block"></a>
+                    <a href="https://www.youtube.com/channel/UCyV9Fg3DAcwn_gYevHPDVlA"><img src="Imagenes/youtube.png" alt="logo-Youtube" class="logo-yutu" style="display: inline-block"></a>
+                    <a href="https://github.com/Mari1345Espu"><img src="Imagenes/github.png" alt="logo-Github" class="logo-git" style="display: inline-block"></a>                  
+                </div>
+                <h2 class="titulo-final" style="display: inline-block"> &copy; Maria Escobar | 2023 </h2>
+            </div>
+            <img src="Imagenes/Patitos.png" alt="patitos nadando" class="patitos-image" style="display: inline-block">
+        </div>
+    </footer>
+    <script src="/script.js"></script>
+</body>
+</html>
