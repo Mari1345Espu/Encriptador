@@ -19,4 +19,5 @@ El proyecto se trata de un encriptador de texto con diseño solicitado por los c
 
 <h4>Preview</h4>
 
+![image](https://github.com/Mari1345Espu/Encriptador/assets/74338716/5c5d24fc-f70e-458f-a24e-91fa34733ada)
 
