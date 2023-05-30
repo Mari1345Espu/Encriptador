@@ -1,0 +1,185 @@
+*{  
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;   
+    background: #cacaeafc;
+    font-family: 'Patrick Hand', cursive;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 150%;
+}
+.logo{
+    padding-top: 10px;
+    margin-left: 10 px;
+    width: 10%
+}
+main{
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 50px;
+    margin-left: 80px;
+}
+.text-user{
+    border:none;    
+    color: #609ED4;
+    margin-top: 30px;
+    text-transform: lowercase;
+    width: 700px; 
+    height: 300px;
+}
+.text-user:focus{
+    border: 1px solid #286294;
+}
+::placeholder {color:#8e99a3; }    
+.text-message{
+    background: initial;
+    background: #FFFFFF;
+    background-image: url("Imagenes/pato.png");
+    background-size: 90%;
+    background-repeat: no-repeat;
+    border: none;
+    border-radius: 24px;
+    color:#609ED4;
+    margin-left: 98px;
+    margin-top: 20px;
+    padding-left: 20px;
+    position: fixed;
+}
+.text-message:focus{
+    outline: none;
+}
+.buttoms{
+    display: flex;
+    margin-top: 18px;
+}
+.btn-decrypt{
+    background: #609ED4;
+    border: 1px solid #286294;
+    border-radius: 24px;
+    color:#FFFFFF;
+    cursor: pointer;
+    height: 67px;
+    margin-left: 50px;
+    width: 328px;
+}
+.btn-encrypt{ 
+    background-color: #609ED4;
+    border: 1px solid #286294;
+    border-radius: 24px; 
+    color: #FFFFFF;
+    height: 67px;
+    width: 328px;
+}
+.btn-copy{
+    background-color: #609ED4;
+    border: 1px solid #286294;
+    border-radius: 24px; 
+    color: #FFFFFF;
+    cursor: pointer;
+    height: 67px;
+    margin-left: 270px;
+    margin-top: 402px;
+    position: absolute;
+    width: 150px;
+}
+.btn-delete{
+    background-color: #609ED4;
+    border: 1px solid #286294;
+    border-radius: 24px; 
+    color: #FFFFFF;
+    cursor: pointer;
+    height: 67px;
+    margin-left: 100px;
+    margin-top: 402px;
+    position: absolute;
+    width: 150px;
+}
+.information{
+    display: flex;    
+    margin-top: 2px;
+    background-color: #f9f462;
+    border: 2px solid #000000;
+    border-radius: 8px; 
+    align-content: center;
+}
+.image-alert{
+    background-color: #f9f462;   
+    margin-top: 8px;
+    margin-bottom: 8px;
+    margin-right: 20px;
+    width: 40px;
+    height: 40px;
+    align-self: center;
+}
+.text-information{
+    background-color: #f9f462;
+    color:#121415;
+    font-weight: 200;
+    font-size: 30px;
+    line-height: 80%;
+    margin-top: 12px;
+    margin-bottom: 12px;    
+}
+footer{   
+   background-color: #08f;   
+   position: absolute;      
+}
+.wave{
+    width: 103%;   
+ } 
+.foo{
+    margin-top: 0;
+    margin-left: 30px;
+    background-color: #08f;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 150px;
+    width: 100.5%;
+}
+.contact{    
+    margin-right: 50px;
+    background-color: #08f;
+    width: auto;
+    display: flex;
+}
+.iconos-contacto{    
+    background-color: #0088ff; 
+    width: 400px;   
+    height: 100px;
+} 
+.iconos-contacto a{    
+    background-color: #0088ff; 
+    margin-left: 0px;   
+} 
+.patitos-image{    
+    align-self: flex-start;        
+    background-color: #08f;
+    width: 10%;
+    margin-left: 20px;
+}
+
+.logo-git{
+    margin-left: 25px;
+    background-color: #08f;
+    width: 15%
+}
+.logo-link{    
+    margin-left: 25px;
+    background-color: #08f;
+    width: 15%
+}
+.logo-yutu{    
+    margin-left: 25px;
+    background-color: #08f;
+    width: 15%
+}
+
+.titulo-final{
+    font-weight: 200;
+    font-size: 30px;
+    line-height: 80%;  
+    text-align: center; 
+    background-color: #08f
+}
+
