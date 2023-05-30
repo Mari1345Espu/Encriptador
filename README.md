@@ -1,4 +1,4 @@
-# Encriptador
+
 <h1><em>Encriptador de texto 🔏</em> </h1>
 
 Proyecto creado con el fin de llevar a cabo el Challenge 01 de Alura
